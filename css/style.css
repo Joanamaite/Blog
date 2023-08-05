@@ -57,8 +57,8 @@ section{
     margin-bottom: 5px solid #307216 !important;
 }
 .logo{
-    width: 10vw;
-    height: 8vh;
+    width: 10rem;
+    height: 5rem;
 }
 
 
@@ -204,16 +204,28 @@ section{
     gap:1.5rem;
     background:#eee;
 }
+
+.container2{
+    display: grid;
+    margin-top: 8rem;
+
+}
 .posts-container{
     display: flex;
 }
-.container .posts-container .post{
+.container .post{
     width:90%;
     padding:2rem;
     background:#fff;
     border-radius: .5rem;
     margin-bottom: 1.5rem;
-
+}
+.post-container{
+    width:30rem;
+    padding:2rem;
+    background:#fff;
+    border-radius: .5rem;
+    margin-bottom: 1.5rem;
 }
 
 
@@ -539,6 +551,9 @@ span{
         border-bottom: var(--border);
         background: #fff;        
         display: none;
+    }
+    .a{
+        color: #113D06 !important;
     }
 
     .header .navbar.active{
