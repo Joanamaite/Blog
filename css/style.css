@@ -135,7 +135,6 @@ section{
     display: none;
 }
 .image{
-    background:url(../images/borboleta.jpg) no-repeat;
     background-size: cover;
     background-size: cover;
     background-position: center;
@@ -143,7 +142,6 @@ section{
 }
 .banner{
     min-height: 80vh;
-    background:url(../images/BANNER2.jpg) no-repeat;
     background-size: cover;
     background-size: cover;
     display: grid;
@@ -152,7 +150,7 @@ section{
 }
 .banner .content{
     text-align: center;
-    background:#ffffff8f;
+    background:#ffffffd3;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     padding:3rem;
@@ -430,7 +428,6 @@ span{
 }
 
 .contact{
-    background:url(../images/floresta.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
