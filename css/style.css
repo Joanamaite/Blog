@@ -561,14 +561,21 @@ span{
 
 .button-48:after {
   background-color: #FFFFFF;
+
 }
 
 .button-48 span {
   z-index: 1;
   position: relative;
 }
+.postUnico{
+    display: none;
+    background: none;
+}
 
-/* CSS */
+.post1{
+margin-top: 2rem !important;
+}
 .button-6 {
     align-items: center;
     background-color: #FFFFFF;

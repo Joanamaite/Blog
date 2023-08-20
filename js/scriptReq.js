@@ -5,25 +5,21 @@ fetch('https://api-rest-post-diegocandido.herokuapp.com/postagens/').then(respon
 
     console.log(result);
     
-    document.querySelector(".text").innerHTML = result[0].description;
     document.querySelector(".date").innerHTML = result[0].postDate;
     document.querySelector(".title").innerHTML = result[0].title;
     let postagImg = `https://api-rest-post-diegocandido.herokuapp.com${result[0].thumbImage}`;
     document.querySelector(".image").src = postagImg;
 
-    document.querySelector(".text_card1").innerHTML = result[2].description;
     document.querySelector(".date_card1").innerHTML = result[2].postDate;
     document.querySelector(".title_card1").innerHTML = result[2].title;
     let postagImgCard2 = `https://api-rest-post-diegocandido.herokuapp.com${result[2].thumbImage}`;
     document.querySelector(".imagem_card2").src = postagImgCard2;
 
-    document.querySelector(".text_card3").innerHTML = result[5].description;
     document.querySelector(".date_card3").innerHTML = result[5].postDate;
     document.querySelector(".title_card3").innerHTML = result[5].title;
     let postagImgCard3 = `https://api-rest-post-diegocandido.herokuapp.com${result[5].thumbImage}`;
     document.querySelector(".imagem_card3").src = postagImgCard3;
 
-    document.querySelector(".text_card").innerHTML = result[1].description;
     document.querySelector(".date_card").innerHTML = result[1].postDate;
     document.querySelector(".titlle_card").innerHTML = result[1].title;
     let postagImgCard = `https://api-rest-post-diegocandido.herokuapp.com${result[1].thumbImage}`;
@@ -45,5 +41,7 @@ fetch('https://api-rest-post-diegocandido.herokuapp.com/postagens/').then(respon
 
     let postagImg5 = `https://api-rest-post-diegocandido.herokuapp.com${result[2].thumbImage}`;
     document.querySelector(".contact").style.backgroundImage =`url(${postagImg5})`;
-    
+
+     
 });
+
