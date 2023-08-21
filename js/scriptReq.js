@@ -5,10 +5,10 @@ fetch('https://api-rest-post-diegocandido.herokuapp.com/postagens/').then(respon
 
     console.log(result);
     
-    document.querySelector(".date").innerHTML = result[0].postDate;
-    document.querySelector(".title").innerHTML = result[0].title;
+    document.querySelector(".date_card").innerHTML = result[0].postDate;
+    document.querySelector(".title_card").innerHTML = result[0].title;
     let postagImg = `https://api-rest-post-diegocandido.herokuapp.com${result[0].thumbImage}`;
-    document.querySelector(".image").src = postagImg;
+    document.querySelector(".imagem_card").src = postagImg;
 
     document.querySelector(".date_card1").innerHTML = result[2].postDate;
     document.querySelector(".title_card1").innerHTML = result[2].title;
